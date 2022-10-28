@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QuranKarem</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_download">تحميل السور</string>
+    <string name="title_activity_close">إغلاق</string>
+    <string name="title_activity_down">تحميل السور</string>
+    <string name="prompt">أختر القارئ</string>
+
+    <string-array name="readers_array">
+        <item>سعد الغامدي</item>
+        <item>عبد الباسط عبد الصمد</item>
+        <item>مشاري بن راشد العفاسي</item>
+        <item>سعود الشريم</item>
+        <item>محمود خليل الحصري</item>
+        <item>محمد صديق المنشاوي</item>
+        <item>علي جابر</item>
+        <item>علي الحذيفي</item>
+    </string-array>
+    <string-array name="songs">
+        <item>سورة الفاتحة</item>
+        <item>سورة البقرة</item>
+        <item>سورة النساء</item>
+        <item>سورة المائدة</item>
+        <item>سورة الأنعام</item>
+        <item>سورة الأعراف</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string name="list_label">قائمة السور</string>
+    <string name="title_activity_reader">ReaderActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <!-- App name -->
+    <string name="app_version_number">1.0</string>
+    <string name="menu_settings">Settings</string>
+    <string name="cd_repeat">Repeat one or all</string>
+    <string name="cd_previous">Skip backwards</string>
+    <string name="cd_play">Play and pause</string>
+    <string name="cd_next">Skip forwards</string>
+
+</resources>

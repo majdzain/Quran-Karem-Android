@@ -1,0 +1,947 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.zezoo.qurankarem.DownloadActivity" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/reader"
+            android:text="سورة الفاتحة" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/checkBox3"
+            android:layout_alignParentRight="true"
+            android:text="سورة البقرة" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/checkBox1"
+            android:layout_below="@+id/checkBox1"
+            android:text="سورة آل عمران" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox2"
+            android:text="سورة النساء" />
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/checkBox3"
+            android:layout_below="@+id/checkBox3"
+            android:text="سورة المائدة " />
+
+        <CheckBox
+            android:id="@+id/checkBox6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox3"
+            android:text="سورة الأنعام" />
+
+        <CheckBox
+            android:id="@+id/checkBox7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox5"
+            android:text="سورة الأعراف" />
+
+        <CheckBox
+            android:id="@+id/checkBox8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox5"
+            android:text="سورة الأنفال" />
+
+        <CheckBox
+            android:id="@+id/checkBox9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox7"
+            android:text="سورة التوبة" />
+
+        <CheckBox
+            android:id="@+id/checkBox10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox8"
+            android:text="سورة يونس" />
+
+        <CheckBox
+            android:id="@+id/checkBox11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox9"
+            android:text="سورة هود" />
+
+        <CheckBox
+            android:id="@+id/checkBox12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox10"
+            android:text="سورة يوسف" />
+
+        <CheckBox
+            android:id="@+id/checkBox13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox11"
+            android:text="سورة الرعد" />
+
+        <CheckBox
+            android:id="@+id/checkBox14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox12"
+            android:text="سورة إبراهيم" />
+
+        <CheckBox
+            android:id="@+id/checkBox15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox13"
+            android:text="سورة الحجر" />
+
+        <CheckBox
+            android:id="@+id/checkBox16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox14"
+            android:text="سورة النحل" />
+
+        <CheckBox
+            android:id="@+id/checkBox17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox15"
+            android:text="سورة الإسراء" />
+
+        <CheckBox
+            android:id="@+id/checkBox18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox16"
+            android:text="سورة الكهف" />
+
+        <CheckBox
+            android:id="@+id/checkBox19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox17"
+            android:text="سورة مريم" />
+
+        <CheckBox
+            android:id="@+id/checkBox20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox18"
+            android:text="سورة طه" />
+
+        <CheckBox
+            android:id="@+id/checkBox21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox19"
+            android:text="سورة الأنبياء" />
+
+        <CheckBox
+            android:id="@+id/checkBox22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox20"
+            android:text="سورة الحج" />
+
+        <CheckBox
+            android:id="@+id/checkBox23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox21"
+            android:text="سورة المؤمنون" />
+
+        <CheckBox
+            android:id="@+id/checkBox24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox22"
+            android:text="سورة النور" />
+
+        <CheckBox
+            android:id="@+id/checkBox25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox23"
+            android:text="سورة الفرقان" />
+
+        <CheckBox
+            android:id="@+id/checkBox26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox24"
+            android:text="سورة الشعراء" />
+
+        <CheckBox
+            android:id="@+id/checkBox27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox25"
+            android:text="سورة النمل" />
+
+        <CheckBox
+            android:id="@+id/checkBox28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox26"
+            android:text="سورة القصص" />
+
+        <CheckBox
+            android:id="@+id/checkBox29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox27"
+            android:text="سورة العنكبوت" />
+
+        <CheckBox
+            android:id="@+id/checkBox30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox28"
+            android:text="سورة الروم" />
+
+        <CheckBox
+            android:id="@+id/checkBox31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox29"
+            android:text="سورة لقمان" />
+
+        <CheckBox
+            android:id="@+id/checkBox32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox30"
+            android:text="سورة السجدة" />
+
+        <CheckBox
+            android:id="@+id/checkBox33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox31"
+            android:text="سورة الأحزاب" />
+
+        <CheckBox
+            android:id="@+id/checkBox34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox32"
+            android:text="سورة سبأ" />
+
+        <CheckBox
+            android:id="@+id/checkBox35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox33"
+            android:text="سورة فاطر" />
+
+        <CheckBox
+            android:id="@+id/checkBox36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox34"
+            android:text="سورة يس" />
+
+        <CheckBox
+            android:id="@+id/checkBox37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox35"
+            android:text="سورة الصافات" />
+
+        <CheckBox
+            android:id="@+id/checkBox38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox36"
+            android:text="سورة ص" />
+
+        <CheckBox
+            android:id="@+id/checkBox39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox37"
+            android:text="سورة الزمر" />
+
+        <CheckBox
+            android:id="@+id/checkBox40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox38"
+            android:text="سورة غافر" />
+
+        <CheckBox
+            android:id="@+id/checkBox41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox39"
+            android:text="سورة فصلت" />
+
+        <CheckBox
+            android:id="@+id/checkBox42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox40"
+            android:text="سورة الشورى" />
+
+        <CheckBox
+            android:id="@+id/checkBox43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox41"
+            android:text="سورة الزخرف" />
+
+        <CheckBox
+            android:id="@+id/checkBox44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox42"
+            android:text="سورة الدخان" />
+
+        <CheckBox
+            android:id="@+id/checkBox45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox43"
+            android:text="سورة الجاثية" />
+
+        <CheckBox
+            android:id="@+id/checkBox46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox44"
+            android:text="سورة الأحقاف" />
+
+        <CheckBox
+            android:id="@+id/checkBox47"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox45"
+            android:text="سورة محمد" />
+
+        <CheckBox
+            android:id="@+id/checkBox48"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox46"
+            android:text="سورة الفتح" />
+
+        <CheckBox
+            android:id="@+id/checkBox49"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox47"
+            android:text="سورة الحجرات" />
+
+        <CheckBox
+            android:id="@+id/checkBox50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox48"
+            android:text="سورة ق" />
+
+        <CheckBox
+            android:id="@+id/checkBox51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox49"
+            android:text="سورة الذاريات" />
+
+        <CheckBox
+            android:id="@+id/checkBox52"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox50"
+            android:text="سورة الطور" />
+
+        <CheckBox
+            android:id="@+id/checkBox53"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox51"
+            android:text="سورة النجم" />
+
+        <CheckBox
+            android:id="@+id/checkBox54"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox52"
+            android:text="سورة القمر" />
+
+        <CheckBox
+            android:id="@+id/checkBox55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox53"
+            android:text="سورة الرحمن" />
+
+        <CheckBox
+            android:id="@+id/checkBox56"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox54"
+            android:text="سورة الواقعة" />
+
+        <CheckBox
+            android:id="@+id/checkBox57"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox55"
+            android:text="سورة الحديد" />
+
+        <CheckBox
+            android:id="@+id/checkBox58"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox56"
+            android:text="سورة المجادلة" />
+
+        <CheckBox
+            android:id="@+id/checkBox59"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox57"
+            android:text="سورة الحشر" />
+
+        <CheckBox
+            android:id="@+id/checkBox60"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox58"
+            android:text="سورة الممتحنة" />
+
+        <CheckBox
+            android:id="@+id/checkBox61"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox59"
+            android:text="سورة الصف" />
+
+        <CheckBox
+            android:id="@+id/checkBox62"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox60"
+            android:text="سورة الجمعة" />
+
+        <CheckBox
+            android:id="@+id/checkBox63"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox61"
+            android:text="سورة المنافقون" />
+
+        <CheckBox
+            android:id="@+id/checkBox64"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox62"
+            android:text="سورة التغابن" />
+
+        <CheckBox
+            android:id="@+id/checkBox65"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox63"
+            android:text="سورة الطلاق" />
+
+        <CheckBox
+            android:id="@+id/checkBox66"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox64"
+            android:text="سورة التحريم" />
+
+        <CheckBox
+            android:id="@+id/checkBox67"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox65"
+            android:text="سورة الملك" />
+
+        <CheckBox
+            android:id="@+id/checkBox68"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox66"
+            android:text="سورة القلم" />
+
+        <CheckBox
+            android:id="@+id/checkBox69"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox67"
+            android:text="سورة الحاقة" />
+
+        <CheckBox
+            android:id="@+id/checkBox70"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox68"
+            android:text="سورة المعارج" />
+
+        <CheckBox
+            android:id="@+id/checkBox71"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox69"
+            android:text="سورة نوح" />
+
+        <CheckBox
+            android:id="@+id/checkBox72"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox70"
+            android:text="سورة الجن" />
+
+        <CheckBox
+            android:id="@+id/checkBox73"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox71"
+            android:text="سورة المزمل" />
+
+        <CheckBox
+            android:id="@+id/checkBox74"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox72"
+            android:text="سورة المدثر" />
+
+        <CheckBox
+            android:id="@+id/checkBox75"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox73"
+            android:text="سورة القيامة" />
+
+        <CheckBox
+            android:id="@+id/checkBox76"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox74"
+            android:text="سورة الإنسان" />
+
+        <CheckBox
+            android:id="@+id/checkBox77"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox75"
+            android:text="سورة المرسلات" />
+
+        <CheckBox
+            android:id="@+id/checkBox78"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox76"
+            android:text="سورة النبأ" />
+
+        <CheckBox
+            android:id="@+id/checkBox79"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox77"
+            android:text="سورة النازعات" />
+
+        <CheckBox
+            android:id="@+id/checkBox80"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox78"
+            android:text="سورة عبس" />
+
+        <CheckBox
+            android:id="@+id/checkBox81"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox79"
+            android:text="سورة التكوير" />
+
+        <CheckBox
+            android:id="@+id/checkBox82"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox80"
+            android:text="سورة الانفطار" />
+
+        <CheckBox
+            android:id="@+id/checkBox83"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox81"
+            android:text="سورة المطففين" />
+
+        <CheckBox
+            android:id="@+id/checkBox84"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox82"
+            android:text="سورة الانشقاق" />
+
+        <CheckBox
+            android:id="@+id/checkBox85"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox83"
+            android:text="سورة البروج" />
+
+        <CheckBox
+            android:id="@+id/checkBox86"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox84"
+            android:text="سورة الطارق" />
+
+        <CheckBox
+            android:id="@+id/checkBox87"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox85"
+            android:text="سورة الأعلى" />
+
+        <CheckBox
+            android:id="@+id/checkBox88"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox86"
+            android:text="سورة الغاشية" />
+
+        <CheckBox
+            android:id="@+id/checkBox89"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox87"
+            android:text="سورة الفجر" />
+
+        <CheckBox
+            android:id="@+id/checkBox90"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox88"
+            android:text="سورة البلد" />
+
+        <CheckBox
+            android:id="@+id/checkBox91"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox89"
+            android:text="سورة الشمس" />
+
+        <CheckBox
+            android:id="@+id/checkBox92"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox90"
+            android:text="سورة الليل" />
+
+        <CheckBox
+            android:id="@+id/checkBox93"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox91"
+            android:text="سورة الضحى" />
+
+        <CheckBox
+            android:id="@+id/checkBox94"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox92"
+            android:text="سورة الشرح" />
+
+        <CheckBox
+            android:id="@+id/checkBox95"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox93"
+            android:text="سورة التين" />
+
+        <CheckBox
+            android:id="@+id/checkBox96"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox94"
+            android:text="سورة العلق" />
+
+        <CheckBox
+            android:id="@+id/checkBox97"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox95"
+            android:text="سورة القدر" />
+
+        <CheckBox
+            android:id="@+id/checkBox98"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox96"
+            android:text="سورة البينة" />
+
+        <CheckBox
+            android:id="@+id/checkBox99"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox97"
+            android:text="سورة الزلزلة" />
+
+        <CheckBox
+            android:id="@+id/checkBox100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox98"
+            android:text="سورة العاديات" />
+
+        <CheckBox
+            android:id="@+id/checkBox101"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox99"
+            android:text="سورة القارعة" />
+
+        <CheckBox
+            android:id="@+id/checkBox102"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox100"
+            android:text="سورة التكاثر" />
+
+        <CheckBox
+            android:id="@+id/checkBox103"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox101"
+            android:text="سورة العصر" />
+
+        <CheckBox
+            android:id="@+id/checkBox104"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox102"
+            android:text="سورة الهمزة" />
+
+        <CheckBox
+            android:id="@+id/checkBox105"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox103"
+            android:text="سورة الفيل" />
+
+        <CheckBox
+            android:id="@+id/checkBox106"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox104"
+            android:text="سورة قريش" />
+
+        <CheckBox
+            android:id="@+id/checkBox107"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox105"
+            android:text="سورة الماعون" />
+
+        <CheckBox
+            android:id="@+id/checkBox108"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox106"
+            android:text="سورة الكوثر" />
+
+        <CheckBox
+            android:id="@+id/checkBox109"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox107"
+            android:text="سورة الكافرون" />
+
+        <CheckBox
+            android:id="@+id/checkBox110"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox108"
+            android:text="سورة النصر" />
+
+        <CheckBox
+            android:id="@+id/checkBox111"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox109"
+            android:text="سورة المسد" />
+
+        <CheckBox
+            android:id="@+id/checkBox112"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox110"
+            android:text="سورة الإخلاص" />
+
+        <CheckBox
+            android:id="@+id/checkBox113"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox111"
+            android:text="سورة الفلق" />
+
+        <CheckBox
+            android:id="@+id/checkBox114"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox112"
+            android:text="سورة الناس" />
+
+        <CheckBox
+            android:id="@+id/select_all"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/checkBox2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+     
+            android:text="تحميل الكل" />
+
+        <Spinner
+            android:id="@+id/reader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/readers_array"
+            android:prompt="@string/prompt"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/select_all" />
+    </RelativeLayout>
+
+</ScrollView>
